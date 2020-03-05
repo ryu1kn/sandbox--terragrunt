@@ -12,3 +12,14 @@ remote_state {
     dynamodb_table = "terragrunt-lock-table"
   }
 }
+
+generate "provider" {
+  path      = "provider.terragrunt.tf"
+  if_exists = "overwrite"
+  contents = <<EOF
+provider "aws" {
+  version = "~> 2.51.0"
+  region = "ap-southeast-2"
+}
+EOF
+}
