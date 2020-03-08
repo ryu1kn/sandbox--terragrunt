@@ -1,4 +1,5 @@
 __*
 .terraform
+*.terragrunt.tf
 *.tfstate
 *.tfstate.backup
