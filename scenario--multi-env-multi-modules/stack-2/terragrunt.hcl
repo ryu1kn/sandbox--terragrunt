@@ -1,5 +1,5 @@
-dependency "module-1" {
-  config_path = "../module-1"
+dependency "stack-1" {
+  config_path = "../stack-1"
 }
 
 inputs = {

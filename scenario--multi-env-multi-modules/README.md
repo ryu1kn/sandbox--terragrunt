@@ -1,5 +1,5 @@
 
-# Scenario: Multi environments & multi modules
+# Scenario: Multi environments & multi stacks
 
 ## Usage
 
