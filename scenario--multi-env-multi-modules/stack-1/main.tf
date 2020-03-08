@@ -1,7 +1,9 @@
+variable "store_bucket_name" {}
+
 resource "aws_s3_bucket" "my-bucket" {
-  bucket = "my-bucket-a8bh3dx"
+  bucket = var.store_bucket_name
 }
 
 output "my-bucket" {
-  value = aws_s3_bucket.my-bucket
+  value = aws_s3_bucket.my-bucket.id
 }
