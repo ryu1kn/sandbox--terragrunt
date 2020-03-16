@@ -1,0 +1,5 @@
+{
+  "state_file_dir": "non-prod",
+  "variable_1": "variable 1 non-prod",
+  "variable_2": "variable 2 non-prod"
+}
